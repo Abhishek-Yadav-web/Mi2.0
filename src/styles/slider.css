@@ -1,0 +1,29 @@
+Carousel{
+    position: relative;
+
+}
+
+.slider-contoller-div{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+.slider-contoller-item{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    margin: 0 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.slider-contoller-item.active{
+    background: #fff;
+}

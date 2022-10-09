@@ -1,0 +1,9 @@
+.productReview,
+.videoBx{
+    width: 100%;
+    padding: 1vmax 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,31 @@
+.starProductBx{
+    padding:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.starProductBx > div {
+    width: 612px;
+    height: 580px;
+    padding: 1px;
+}
+
+.starProductBx > div#rightBx{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(2,305px);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.starProductBx  img{
+    transition: 0.3s ease;
+}
+
+.starProductBx div#rightBx #wide{
+    width: 610px;
+}
+
+.starProductBx  img:hover{
+    box-shadow: 0 8px 16px rgb(0 0 0 / 18%);
+}

@@ -1,0 +1,24 @@
+.headingBx{
+    width: 100%;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingBx > div{
+    min-width: 400px;
+    height: 1px;
+    background: #757575;
+    opacity: 0.2;
+}
+
+.headingBx > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px;
+    font-size: 2vmax;
+    font-weight: 200;
+    color: #616161;
+}

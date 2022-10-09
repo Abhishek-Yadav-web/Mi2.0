@@ -1,0 +1,94 @@
+.nav{
+    padding: 20px 80px !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    position: absolute;
+    z-index: 1000;
+}
+
+.nav > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav > div:nth-child(2){
+    margin-right: 80px;
+}
+
+.nav  .logo,
+.nav  .logo  Link, 
+.nav  .searchBx, 
+.nav  .logo  #logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav  #LogoBx {
+    background: #ff6800;
+    width: 58px;
+    height: 58px;
+    border-radius: 20px;
+    margin-right: 1.2vmax;
+    overflow: hidden;
+    cursor: pointer !important;
+    position: relative;
+}
+
+
+.nav  .logo  Link{
+    cursor: pointer;
+}
+
+#logoImg{
+    transform: translateX(-40%) scale(1.5);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.logo:hover #logoImg{
+    transform: translateX(40%) scale(1.5);
+}
+
+.nav  .navlinks{
+    color: #616161;
+    font-weight: 500;
+    font-size: 0.9vmax;
+    margin: 1vmax 1.2vmax;
+    transition: 0.2s ease;
+}
+
+.nav  .navlinks:hover{
+    color: #ff6800;
+}
+
+.searchBx{
+    position: relative;
+    left: 5vmax;
+    width: 220px;
+
+}
+
+.searchBx  input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #b0b0b0;
+    font-size: 14px;
+    color: #616161;
+    padding: 5px 5px;
+}
+
+.searchBx ion-icon{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}

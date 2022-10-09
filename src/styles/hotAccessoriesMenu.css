@@ -1,0 +1,34 @@
+.hotAccessoriesMenuBx{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotAccessoriesLink{
+    margin:1vmax ;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #757575;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.hotAccessoriesLink:hover{
+    color: #ff6700;
+}
+
+.hotAccessoriesLink::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #ff6700;
+}
+
+.hotAccessoriesLink:hover::before{
+    width: 100%;
+}

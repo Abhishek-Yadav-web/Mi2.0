@@ -1,0 +1,24 @@
+.offerSection{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.offerSection > .offerSection__imgBx{
+    margin: 0.5vmax;
+    transition: 0.3s ease;
+}
+
+.offerSection > .offerSection__imgBx:hover{
+    box-shadow: 0 8px 16px rgb(0 0 0 / 18%);
+}
+
+
+
+
+.offerSection > .offerSection__imgBx > img{
+    width: 500px;
+}

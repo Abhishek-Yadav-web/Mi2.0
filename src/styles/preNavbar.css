@@ -1,0 +1,43 @@
+Link{
+    color: unset;
+    text-decoration: none;
+}
+
+.preNav{
+    text-transform: uppercase;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+    color: #fff;
+}
+
+.preNav > div > a, .preNav > div > span{
+    font-size: 0.7em;
+    font-weight: 200;
+}
+
+.preNav > div ,.preNav > div > a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b0b0b0;
+}
+
+.preNav > div > a > ion-icon{
+    margin-right: 5px;
+    font-size: 1.2em;
+    color: #b0b0b0;
+}
+
+.preNav > div > a:hover, 
+.preNav > div > a:hover > ion-icon{
+    color: #fff;
+}
+
+.preNav > div > span{
+    font-size: 0.7em;
+    margin: 10px;
+}

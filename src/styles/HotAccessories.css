@@ -1,0 +1,27 @@
+.hotAccessories{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hotAccessories > div{
+    margin: 0.5vmax;
+}
+
+.hotAccessories > #rightDiv{
+    width: 930px;
+    height: 614px;
+    display: grid;
+    grid-gap: 1vmax;
+    grid-template-columns: repeat(3,296px);
+    grid-template-rows: repeat(2,300px);
+}
+
+.imgBxBrowser > img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
